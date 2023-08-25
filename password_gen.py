@@ -1,5 +1,5 @@
 # Created from Dr Angela Yu's python 100 day bootcamp. Provided was line 3-13
-# Line 15-36 is my original work
+# Line 15-37 is my original work
 
 #Password Generator Project
 import random
@@ -33,5 +33,6 @@ for i in range(0, nr_symbols):
 final_pass = random_letters + random_numbers + random_symbols
 
 #print a final list using join function to convert list to string
+print("Your final randomized password is:")
 print(''.join(final_pass))
- 
+
